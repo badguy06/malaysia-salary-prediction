@@ -101,6 +101,7 @@ with tab_predict:
             max_value=0,
             value=0,
             step=1,
+            disabled=True,
             help="Internship experience is always 0 years.",
             key=f"experience_{st.session_state['reset_counter']}"
         )
